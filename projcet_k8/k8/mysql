@@ -1,0 +1,1 @@
+kubectl exec -it mysqldb-deployment-5db4cc4d55-twsh4 -- mysql -u root -p -e "INSERT INTO myapp_user (user) VALUES ('myname is ahmed');" userdb
